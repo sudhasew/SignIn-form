@@ -8,36 +8,21 @@
     <title>Form-Example</title>
   </head>
   <body>
-    <div class="center text_field">
-      <section class="header">
-        <h1 class="welcome">Welcome Back</h1>
-        <h2 class="h2">Sign In</h2>
-      </section>
+    <div class="form-container">
       <form>
-        <div class="text_field">
-          <label for="email"></label>
-          <input type="text" name="email" id="email" placeholder="Email" />
+        <h1>Welcome Back</h1>
+        <h2>Sign In</h2>
+
+        <label for="email"></label>
+        <input type="text" id="email" placeholder="Email" />
+
+        <label for="password"></label>
+        <input type="text" id="password" placeholder="Password" />
+        <div class="forgot">
+          <button>Forgot?</button>
         </div>
-        <div class="text_field">
-          <label for="password"></label>
-          <section class="forgot">
-            <input
-              type="password"
-              name="password"
-              id="pass"
-              placeholder="Password"
-            />
-            <span>
-              <button>Forgot?</button>
-            </span>
-          </section>
-        </div>
-        <div class="signin">
-          <button type="SignIn">SIGN IN</button>
-        </div>
-        <div class="account">
-          <button>don't have an account</button>
-        </div>
+        <button class="signin">SIGN IN</button>
+        <button class="account">don't have an account</button>
       </form>
     </div>
   </body>
